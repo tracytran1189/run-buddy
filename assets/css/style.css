@@ -237,25 +237,46 @@ footer a {
   }
 
   /* REACH OUT STYLES START */
-.contact {
-  text-align: center;
-  background: #024e76;
-}
+  .contact {
+    text-align: center;
+    background: #024e76;
+  }
+  
+  .contact h2 {
+    color: #fce138;
+    
+  }
+  
+  .contact iframe {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .contact div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+  }
+  
+  .contact h3 {
+    color: #fce138;
+    font-size: 32px;
+  }
+  
+  .contact p,
+  .contact address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .contact a {
+    color: #fce138;
+  }
+  
+  /* REACH OUT STYLES END */
 
-.contact h2 {
-  color: #fce138;
-}
-
-.contact-info iframe {
-  width: 400px;
-  height: 400px;
-}
-
-contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
-  color: white;
-}
