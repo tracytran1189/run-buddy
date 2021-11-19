@@ -289,22 +289,24 @@ footer a {
     text-align: left;
     vertical-align: top;
     padding: 20px;
+    float: right;
 }
 
 .contact-form {
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    position: relative;
-    padding: 10px;
+    padding: 20px;
 }
 
 .contact-form button {
     color: #024e76;
     background-color: #fce138;
-    border: solid 200px 200px;
-    border-radius: 5px;
+    border: solid 5px;
+    border-radius: 10px;
     font-size: 16px;
+    padding: 7px 15px;
+    width: 100%;
 }
 
 
