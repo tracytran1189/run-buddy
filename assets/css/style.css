@@ -144,13 +144,14 @@ footer a {
 .steps {
     text-align: center;
     background: #fce138;
+    padding: 20px;
 }
 
-.primary-border {
+#what-we-do>.primary-border {
     border-color: #fce138;
 }
 
-.secondary-border {
+#what-you-do>.secondary-border {
     border-color: #39a6b2;
 }
 
@@ -226,12 +227,12 @@ footer a {
 }
 
 .section-title {
-    width: 410px;
     font-size: 55px;
-    border-bottom: 3px solid #39a6b2;
+    border-bottom: 3px solid;
     color: #024e76;
     display: inline-block;
-    padding: 20px;
+    padding: 20px 100px 20px 100px;
+    margin-bottom: 35px;
 }
 
 
