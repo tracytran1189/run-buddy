@@ -15,9 +15,10 @@ body {
 
 header {
     padding: 20px 35px;
-    background-image: url("../images/hero-bg.jpg");
-    background-position: center;
-    background-size: cover;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -25,7 +26,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -34,7 +34,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -80,6 +79,7 @@ footer a {
     display: flex;
     background-position: center;
     background-size: cover;
+    background-image: url("../images/hero-bg.jpg");
 }
 
 .hero h2 {
