@@ -78,7 +78,6 @@ footer a {
     height: 600px;
     padding: 60px;
     display: flex;
-    background-image: url("../images/hero-bg.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -88,7 +87,7 @@ footer a {
     font-size: 40px;
 }
 
-.hero p {
+.hero-cta p {
     color: white
 }
 
@@ -108,7 +107,7 @@ footer a {
     background-color: #fce138;
     color: #024e76;
     padding: 20px;
-    width: 1000px;
+    width: 600px;
     border: solid 3px #024e76;
     bottom: 120px;
     right: 140px;
